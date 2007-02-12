@@ -4,11 +4,16 @@ use strict;
 use NEXT;
 use Net::LDAP;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 NAME
 
-Catalyst::Plugin::Authentication::LDAP - LDAP Authentication for Catalyst
+Catalyst::Plugin::Authentication::LDAP - LDAP Authentication for Catalyst *DEPRECATED, use Store::LDAP instead*
+
+=head1 DEPRECATED
+
+WARNING: This module has been superseded by L<Catalyst::Plugin::Authentication::Store::LDAP>, and is therefore no longer
+maintained.
 
 =head1 SYNOPSIS
 
